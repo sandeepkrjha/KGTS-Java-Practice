@@ -13,6 +13,13 @@ public class Container {
 
     private int x1, x2, y1, y2;//(x1,y1)is top left corner of rectangular box and (x2,y2)is bottom-right
 
+    /**
+     *
+     * @param x
+     * @param y
+     * @param width
+     * @param height
+     */
     public Container(int x, int y, int width, int height) {
         this.x1 = x;
         this.y1 = y;
@@ -20,36 +27,68 @@ public class Container {
         this.y2 = y2 + height - 1;
     }
 
+    /**
+     *
+     * @param x
+     */
     public void setX1(int x) {
         this.x1 = x;
 
     }
 
+    /**
+     *
+     * @return
+     */
     public int getX1() {
         return x1;
     }
 
+    /**
+     *
+     * @param y
+     */
     public void setY1(int y) {
         this.y1 = y;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getY1() {
         return y1;
     }
 
+    /**
+     *
+     * @param x
+     */
     public void setX2(int x) {
         this.x2 = x;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getX2() {
         return x2;
     }
 
+    /**
+     *
+     * @param y
+     */
     public void setY2(int y) {
         this.y2 = y;
 
     }
 
+    /**
+     *
+     * @return
+     */
     public int getY2() {
         return y2;
     }
